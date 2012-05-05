@@ -1,0 +1,7 @@
+Installing the printer ZM400
+
+1. Connect the printer to the computer in a USB port.
+
+2. Install the driver of the printer. (.../drivers/ZD266306Certified.exe).
+
+3. Now, the printer isn't a unknown hardware in you pc.

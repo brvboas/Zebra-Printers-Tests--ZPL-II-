@@ -1,0 +1,21 @@
+How print a label from a TXT file when your printer ZM400 is connected in a USB port:
+
+1. First of all share your printer and give it a name.
+
+	1.1. To do that, go to ControlPanel\printers and right-click on the printer you want to share. Now, click in "sharing...").
+	
+2. In the CMD type:
+
+	net use lpt1: /delete
+	net use lpt1: \\computerName\networkPrinterName
+	
+	2.1. The computer name is the name of your computer in a network. To find it right-click in the "My computer" and "properties". 
+		In the tab "Computer Name" you can find the name of your computer.
+	2.2. The networkPrinterName is the name of the printer you gave some steps before.
+
+3. Now the printer is in the LPT1 port in your pc, so you can use the "print" method in the CMD
+
+4. So, now, you can type:
+	print fileName.txt >prn
+	
+5. The label printer will print your label.
